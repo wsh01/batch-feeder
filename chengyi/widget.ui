@@ -6,9 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>473</width>
-    <height>369</height>
+    <width>480</width>
+    <height>272</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
   </property>
   <property name="windowTitle">
    <string>Widget</string>
@@ -16,6 +25,11 @@
   <layout class="QGridLayout" name="gridLayout_6">
    <item row="0" column="0">
     <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{ background-color:rgb(0, 85, 255);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -24,7 +38,7 @@
        <widget class="QLabel" name="label_Name">
         <property name="font">
          <font>
-          <pointsize>19</pointsize>
+          <pointsize>16</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -51,7 +65,7 @@
        <widget class="QLabel" name="label_date">
         <property name="font">
          <font>
-          <pointsize>20</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">
@@ -64,6 +78,9 @@
    </item>
    <item row="1" column="0">
     <widget class="QGroupBox" name="groupBox_2">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -72,10 +89,17 @@
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
          <widget class="QPushButton" name="btn_Stop">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 85, 255);} 
+QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
           </property>
           <property name="text">
            <string>手动停止</string>
@@ -86,7 +110,7 @@
          <widget class="QPushButton" name="btn_Start">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -115,7 +139,7 @@
          <widget class="QLabel" name="label">
           <property name="font">
            <font>
-            <pointsize>40</pointsize>
+            <pointsize>20</pointsize>
            </font>
           </property>
           <property name="text">
@@ -127,7 +151,7 @@
          <widget class="QLabel" name="label_Kg">
           <property name="font">
            <font>
-            <pointsize>42</pointsize>
+            <pointsize>20</pointsize>
            </font>
           </property>
           <property name="text">
@@ -156,7 +180,7 @@
          <widget class="QPushButton" name="btn_Reset">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -168,7 +192,7 @@
          <widget class="QPushButton" name="pushButton_4">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -183,6 +207,9 @@
    </item>
    <item row="2" column="0">
     <widget class="QGroupBox" name="groupBox_3">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -191,7 +218,7 @@
        <widget class="QLabel" name="label_5">
         <property name="font">
          <font>
-          <pointsize>15</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">
@@ -205,7 +232,7 @@
          <widget class="QLabel" name="label_7">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -217,7 +244,7 @@
          <widget class="QLabel" name="label_8">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -229,7 +256,7 @@
          <widget class="QLabel" name="label_9">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -241,7 +268,7 @@
          <widget class="QLabel" name="label_10">
           <property name="font">
            <font>
-            <pointsize>16</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -253,7 +280,7 @@
          <widget class="QLabel" name="label_11">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -265,7 +292,7 @@
          <widget class="QLabel" name="label_12">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -277,7 +304,7 @@
          <widget class="QLabel" name="label_13">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -289,7 +316,7 @@
          <widget class="QLabel" name="label_14">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -305,7 +332,7 @@
          <widget class="QLabel" name="label_6">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -317,7 +344,7 @@
          <widget class="QLabel" name="label_time_2">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -333,7 +360,7 @@
          <widget class="QLabel" name="label_16">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -345,7 +372,7 @@
          <widget class="QLabel" name="label_17">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -357,7 +384,7 @@
          <widget class="QLabel" name="label_18">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -373,7 +400,7 @@
          <widget class="QLabel" name="label_19">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -385,7 +412,7 @@
          <widget class="QLabel" name="label_20">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -397,7 +424,7 @@
          <widget class="QLabel" name="label_21">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -412,6 +439,9 @@
    </item>
    <item row="3" column="0">
     <widget class="QGroupBox" name="groupBox_4">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -422,7 +452,7 @@
          <widget class="QRadioButton" name="rbtn_Auto">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -434,7 +464,7 @@
          <widget class="QRadioButton" name="radioButton_2">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -450,7 +480,7 @@
          <widget class="QLabel" name="label_2">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -462,7 +492,7 @@
          <widget class="QLabel" name="label_3">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -474,7 +504,7 @@
          <widget class="QLabel" name="label_4">
           <property name="font">
            <font>
-            <pointsize>15</pointsize>
+            <pointsize>9</pointsize>
            </font>
           </property>
           <property name="text">
@@ -488,7 +518,7 @@
        <widget class="QPushButton" name="pushButton">
         <property name="font">
          <font>
-          <pointsize>24</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">
@@ -501,6 +531,9 @@
    </item>
    <item row="4" column="0">
     <widget class="QGroupBox" name="groupBox_5">
+     <property name="styleSheet">
+      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+     </property>
      <property name="title">
       <string/>
      </property>
@@ -509,7 +542,7 @@
        <widget class="QPushButton" name="btn_Auto">
         <property name="font">
          <font>
-          <pointsize>15</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">
@@ -521,7 +554,7 @@
        <widget class="QPushButton" name="btn_Manual">
         <property name="font">
          <font>
-          <pointsize>15</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">
@@ -533,7 +566,7 @@
        <widget class="QPushButton" name="btn_History">
         <property name="font">
          <font>
-          <pointsize>15</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">
@@ -545,7 +578,7 @@
        <widget class="QPushButton" name="btn_Meun">
         <property name="font">
          <font>
-          <pointsize>15</pointsize>
+          <pointsize>9</pointsize>
          </font>
         </property>
         <property name="text">

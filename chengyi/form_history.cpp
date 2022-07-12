@@ -6,6 +6,7 @@ Form_History::Form_History(QWidget *parent) :
     ui(new Ui::Form_History)
 {
     ui->setupUi(this);
+ this->setFixedSize(480,272);//固定窗口大小
 }
 
 Form_History::~Form_History()

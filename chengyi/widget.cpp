@@ -11,22 +11,40 @@ Widget::Widget(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::Widget)
 {
+    QPalette bgpal = palette();
+    bgpal.setColor (QPalette::Background, QColor (255, 255 , 255, 255));      //背景颜色
+    bgpal.setColor (QPalette::Foreground, QColor (0,255,255,255));    //字体颜色
+    setPalette (bgpal);
+
     ui->setupUi(this);
 
-    timer_calendar = new QTimer(this);//创建日期显示定时器
-    connect(timer_calendar,SIGNAL(timeout()),this,SLOT(showDateTime()));//连接日期时间槽函数，每秒更新一次
-    timer_calendar->start(1000);//每一秒溢出一次进入槽函数
+    Time_init();
+    DataTime_init();
+
+ //   this->setFixedSize(480,272);//固定窗口大小
+//    this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
 
 
-    fTimer=new QTimer(this);  //创建辅助计时器定时器
-    fTimer->stop();           //先默认关闭
-    fTimer->setInterval(1000);//设置定时周期,单位：毫秒
-    connect(fTimer,SIGNAL(timeout()),this,SLOT(showTime()));//连接运行时间槽函数，每秒更新一次
 }
 
 Widget::~Widget()
 {
     delete ui;
+}
+
+void Widget::Time_init()  //投料时间显示初始化
+{
+    fTimer = new QTimer(this);  //创建辅助计时器定时器
+    fTimer->stop();           //先默认关闭
+//    fTimer->setInterval(1000);//设置定时周期,单位：毫秒
+    connect(fTimer,SIGNAL(timeout()),this,SLOT(showTime()));//连接运行时间槽函数，每秒更新一次
+}
+
+void Widget::DataTime_init()
+{
+    timer_calendar = new QTimer(this);//创建日期显示定时器
+    connect(timer_calendar,SIGNAL(timeout()),this,SLOT(showDateTime()));//连接日期时间槽函数，每秒更新一次
+    timer_calendar->start(1000);//每一秒溢出一次进入槽函数
 }
 
 void Widget::showDateTime()  //显示当前日期时间
@@ -36,7 +54,7 @@ void Widget::showDateTime()  //显示当前日期时间
     ui->label_date->setText(str);
 }
 
-void Widget::showTime() //显示计时时间
+void Widget::showTime() //显示投料计时时间
 {
     int tmMsec=fTimeCounter.elapsed();//start()后的毫秒数
     int m_sec = tmMsec/1000; //整秒
@@ -62,7 +80,7 @@ void Widget::on_btn_Stop_clicked()//手动停止按钮槽函数
     ui->btn_Stop->setEnabled(false);
 }
 
-void Widget::on_btn_Meun_clicked()  //菜单显示
+void Widget::on_btn_Meun_clicked()  //菜单页面显示
 {
     Form_Meun *form_meun = new Form_Meun(this);
     form_meun->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
@@ -72,7 +90,7 @@ void Widget::on_btn_Meun_clicked()  //菜单显示
     form_meun->show();//显示
 }
 
-void Widget::on_btn_History_clicked()   //历史记录显示
+void Widget::on_btn_History_clicked()   //历史记录页面显示
 {
     Form_History *form_history = new Form_History(this);
     form_history->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
@@ -82,7 +100,7 @@ void Widget::on_btn_History_clicked()   //历史记录显示
     form_history->show();//显示
 }
 
-void Widget::on_btn_Manual_clicked()    //自动设置显示
+void Widget::on_btn_Manual_clicked()    //手动设置页面显示
 {
     Form_Maunal *form_maunal = new Form_Maunal(this);
     form_maunal->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
@@ -92,7 +110,7 @@ void Widget::on_btn_Manual_clicked()    //自动设置显示
     form_maunal->show();//显示
 }
 
-void Widget::on_btn_Auto_clicked()
+void Widget::on_btn_Auto_clicked()  //自动设置页面显示
 {
     Form_Auto  *form_auto = new Form_Auto(this);
     form_auto->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
