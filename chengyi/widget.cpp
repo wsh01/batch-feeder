@@ -2,6 +2,10 @@
 #include "ui_widget.h"
 #include <QDateTime>
 #include <QString>
+#include "form_meun.h"
+#include "form_history.h"
+#include "form_maunal.h"
+#include "form_auto.h"
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
@@ -56,4 +60,44 @@ void Widget::on_btn_Stop_clicked()//手动停止按钮槽函数
 
     ui->btn_Start->setEnabled(true); //更新按键状态
     ui->btn_Stop->setEnabled(false);
+}
+
+void Widget::on_btn_Meun_clicked()  //菜单显示
+{
+    Form_Meun *form_meun = new Form_Meun(this);
+    form_meun->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
+    form_meun->setWindowTitle("菜单");//窗口标题
+    form_meun->setWindowFlag(Qt::Window,true);
+    form_meun->setWindowOpacity(0.9);//透明度
+    form_meun->show();//显示
+}
+
+void Widget::on_btn_History_clicked()   //历史记录显示
+{
+    Form_History *form_history = new Form_History(this);
+    form_history->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
+    form_history->setWindowTitle("历史记录");//窗口标题
+    form_history->setWindowFlag(Qt::Window,true);
+    form_history->setWindowOpacity(0.9);//透明度
+    form_history->show();//显示
+}
+
+void Widget::on_btn_Manual_clicked()    //自动设置显示
+{
+    Form_Maunal *form_maunal = new Form_Maunal(this);
+    form_maunal->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
+    form_maunal->setWindowTitle("手动设置");//窗口标题
+    form_maunal->setWindowFlag(Qt::Window,true);
+    form_maunal->setWindowOpacity(0.9);//透明度
+    form_maunal->show();//显示
+}
+
+void Widget::on_btn_Auto_clicked()
+{
+    Form_Auto  *form_auto = new Form_Auto(this);
+    form_auto->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
+    form_auto->setWindowTitle("自动设置");//窗口标题
+    form_auto->setWindowFlag(Qt::Window,true);
+    form_auto->setWindowOpacity(0.9);//透明度
+    form_auto->show();//显示
 }
