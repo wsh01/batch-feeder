@@ -215,18 +215,29 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_5">
       <item row="0" column="0">
-       <widget class="QLabel" name="label_5">
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>1塘</string>
-        </property>
-       </widget>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="label_num">
+          <property name="text">
+           <string>12</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>塘</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
-      <item row="0" column="1" colspan="3">
+      <item row="0" column="1" colspan="2">
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
          <widget class="QLabel" name="label_7">
@@ -326,7 +337,7 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="1" column="0" colspan="2">
+      <item row="1" column="0">
        <layout class="QHBoxLayout" name="horizontalLayout_5">
         <item>
          <widget class="QLabel" name="label_6">
@@ -341,7 +352,7 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_time_2">
+         <widget class="QLabel" name="label_time">
           <property name="font">
            <font>
             <pointsize>9</pointsize>
@@ -354,7 +365,7 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="1" column="2">
+      <item row="1" column="1">
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
          <widget class="QLabel" name="label_16">
@@ -394,7 +405,7 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="1" column="3">
+      <item row="1" column="2">
        <layout class="QHBoxLayout" name="horizontalLayout_4">
         <item>
          <widget class="QLabel" name="label_19">
@@ -449,24 +460,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
       <item row="0" column="0">
        <layout class="QVBoxLayout" name="verticalLayout_4">
         <item>
-         <widget class="QRadioButton" name="rbtn_Auto">
-          <property name="font">
-           <font>
-            <pointsize>9</pointsize>
-           </font>
-          </property>
+         <widget class="QPushButton" name="btn_Auto">
           <property name="text">
-           <string>手/自动</string>
+           <string>自动</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="radioButton_2">
-          <property name="font">
-           <font>
-            <pointsize>9</pointsize>
-           </font>
-          </property>
+         <widget class="QPushButton" name="btn_Manual">
           <property name="text">
            <string>手动</string>
           </property>
@@ -531,6 +532,12 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
    </item>
    <item row="4" column="0">
     <widget class="QGroupBox" name="groupBox_5">
+     <property name="font">
+      <font>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="styleSheet">
       <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
      </property>
@@ -539,7 +546,7 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_3">
       <item row="0" column="0">
-       <widget class="QPushButton" name="btn_Auto">
+       <widget class="QPushButton" name="btn_AutoSet">
         <property name="font">
          <font>
           <pointsize>9</pointsize>
@@ -551,7 +558,7 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QPushButton" name="btn_Manual">
+       <widget class="QPushButton" name="btn_ManualSet">
         <property name="font">
          <font>
           <pointsize>9</pointsize>

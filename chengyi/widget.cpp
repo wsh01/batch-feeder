@@ -22,7 +22,7 @@ Widget::Widget(QWidget *parent) :
     DataTime_init();
 
  //   this->setFixedSize(480,272);//固定窗口大小
-//    this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
+    this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
 
 
 }
@@ -61,7 +61,7 @@ void Widget::showTime() //显示投料计时时间
     int sec = m_sec%60;
     int min = m_sec/60;  //分钟
     QString str=QString::asprintf("%d 分 %d 秒",min,sec);   //格式
-    ui->label_time_2->setText(str);   //显示
+    ui->label_time->setText(str);   //显示
 }
 
 void Widget::on_btn_Start_clicked()//手动启动按钮槽函数
@@ -100,7 +100,7 @@ void Widget::on_btn_History_clicked()   //历史记录页面显示
     form_history->show();//显示
 }
 
-void Widget::on_btn_Manual_clicked()    //手动设置页面显示
+void Widget::on_btn_ManualSet_clicked()    //手动设置页面显示
 {
     Form_Maunal *form_maunal = new Form_Maunal(this);
     form_maunal->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
@@ -110,7 +110,7 @@ void Widget::on_btn_Manual_clicked()    //手动设置页面显示
     form_maunal->show();//显示
 }
 
-void Widget::on_btn_Auto_clicked()  //自动设置页面显示
+void Widget::on_btn_AutoSet_clicked()  //自动设置页面显示
 {
     Form_Auto  *form_auto = new Form_Auto(this);
     form_auto->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
@@ -118,4 +118,16 @@ void Widget::on_btn_Auto_clicked()  //自动设置页面显示
     form_auto->setWindowFlag(Qt::Window,true);
     form_auto->setWindowOpacity(0.9);//透明度
     form_auto->show();//显示
+}
+
+void Widget::on_btn_Auto_clicked()      //自动按钮槽函数
+{
+    ui->btn_Manual->setEnabled(true);   //实现自动/手动按钮互斥，起单选效果
+    ui->btn_Auto->setEnabled(false);
+}
+
+void Widget::on_btn_Manual_clicked()    //手动按钮槽函数
+{
+    ui->btn_Auto->setEnabled(true);      //实现自动/手动按钮互斥，起单选效果
+    ui->btn_Manual->setEnabled(false);
 }
