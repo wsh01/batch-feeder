@@ -6,7 +6,7 @@ Form_Auto::Form_Auto(QWidget *parent) :
     ui(new Ui::Form_Auto)
 {
     ui->setupUi(this);
-//    this->setFixedSize(480,272);//固定窗口大小
+    this->setFixedSize(800,500);//固定窗口大小
 }
 
 Form_Auto::~Form_Auto()

@@ -12,8 +12,8 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     QPalette bgpal = palette();
-    bgpal.setColor (QPalette::Background, QColor (255, 255 , 255, 255));      //背景颜色
-    bgpal.setColor (QPalette::Foreground, QColor (0,255,255,255));    //字体颜色
+    bgpal.setColor (QPalette::Background, QColor (0, 0 , 0, 255));      //背景颜色
+//    bgpal.setColor (QPalette::Foreground, QColor (0,255,255,255));    //字体颜色
     setPalette (bgpal);
 
     ui->setupUi(this);
@@ -21,8 +21,8 @@ Widget::Widget(QWidget *parent) :
     Time_init();
     DataTime_init();
 
- //   this->setFixedSize(480,272);//固定窗口大小
-    this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
+    this->setFixedSize(800,500);//固定窗口大小
+ //   this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
 
 
 }

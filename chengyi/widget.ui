@@ -26,7 +26,7 @@
    <item row="0" column="0">
     <widget class="QGroupBox" name="groupBox">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ background-color:rgb(0, 85, 255);} 
+      <string notr="true">QGroupBox{ background-color:rgb(0, 64, 128);} 
 QGroupBox{ margin-top:0px;}
 QGroupBox:title {margin-top: 0px;}</string>
      </property>
@@ -42,6 +42,9 @@ QGroupBox:title {margin-top: 0px;}</string>
           <weight>75</weight>
           <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>广州市诚一智慧渔业发展有限公司</string>
@@ -65,8 +68,13 @@ QGroupBox:title {margin-top: 0px;}</string>
        <widget class="QLabel" name="label_date">
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>TextLabel</string>
@@ -94,12 +102,14 @@ QGroupBox:title {margin-top: 0px;}</string>
           </property>
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 85, 255);} 
-QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
+           <string notr="true">QPushButton { background-color:rgb(136, 223, 223);} 
+QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
           </property>
           <property name="text">
            <string>手动停止</string>
@@ -110,8 +120,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QPushButton" name="btn_Start">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(136, 223, 223);} 
+QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
           </property>
           <property name="text">
            <string>手动启动</string>
@@ -139,11 +155,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label">
           <property name="font">
            <font>
-            <pointsize>20</pointsize>
+            <pointsize>25</pointsize>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 0);}</string>
+          </property>
           <property name="text">
-           <string>TextLabel</string>
+           <string>1500</string>
           </property>
          </widget>
         </item>
@@ -151,8 +170,11 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_Kg">
           <property name="font">
            <font>
-            <pointsize>20</pointsize>
+            <pointsize>25</pointsize>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>Kg</string>
@@ -180,8 +202,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QPushButton" name="btn_Reset">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
            <string>保护复位</string>
@@ -192,8 +220,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QPushButton" name="pushButton_4">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
            <string>搅拌</string>
@@ -214,10 +248,20 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
       <string/>
      </property>
      <layout class="QGridLayout" name="gridLayout_5">
-      <item row="0" column="0">
+      <item row="0" column="0" rowspan="2">
        <layout class="QHBoxLayout" name="horizontalLayout_6">
         <item>
          <widget class="QLabel" name="label_num">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
+          </property>
           <property name="text">
            <string>12</string>
           </property>
@@ -227,8 +271,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_5">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>塘</string>
@@ -237,14 +286,32 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="0" column="1" colspan="2">
+      <item row="0" column="1" rowspan="2">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>92</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="2" rowspan="2" colspan="3">
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
          <widget class="QLabel" name="label_7">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>风机</string>
@@ -255,8 +322,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_8">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>给料</string>
@@ -267,8 +339,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_9">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>抛料</string>
@@ -279,8 +356,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_10">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>下料</string>
@@ -291,8 +373,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_11">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>搅拌</string>
@@ -303,8 +390,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_12">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>喷药</string>
@@ -315,8 +407,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_13">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>开门</string>
@@ -327,8 +424,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_14">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(47,94,94);}</string>
           </property>
           <property name="text">
            <string>报警</string>
@@ -337,14 +439,32 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="1" column="0">
+      <item row="1" column="3" rowspan="2">
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>92</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="0">
        <layout class="QHBoxLayout" name="horizontalLayout_5">
         <item>
          <widget class="QLabel" name="label_6">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>开始：</string>
@@ -355,24 +475,47 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_time">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
+          </property>
           <property name="text">
-           <string>0</string>
+           <string>0 分 0 秒</string>
           </property>
          </widget>
         </item>
        </layout>
       </item>
-      <item row="1" column="1">
+      <item row="2" column="1">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>92</width>
+          <height>15</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="2" column="2">
        <layout class="QHBoxLayout" name="horizontalLayout_3">
         <item>
          <widget class="QLabel" name="label_16">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>目标重量:</string>
@@ -383,11 +526,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_17">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
+          </property>
           <property name="text">
-           <string>0</string>
+           <string>100</string>
           </property>
          </widget>
         </item>
@@ -395,8 +541,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_18">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>Kg</string>
@@ -405,14 +556,19 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="1" column="2">
+      <item row="2" column="4">
        <layout class="QHBoxLayout" name="horizontalLayout_4">
         <item>
          <widget class="QLabel" name="label_19">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>已投重量:</string>
@@ -423,11 +579,16 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_20">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
+          </property>
           <property name="text">
-           <string>0</string>
+           <string>100</string>
           </property>
          </widget>
         </item>
@@ -435,8 +596,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_21">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>Kg</string>
@@ -461,6 +627,17 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
        <layout class="QVBoxLayout" name="verticalLayout_4">
         <item>
          <widget class="QPushButton" name="btn_Auto">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
+          </property>
           <property name="text">
            <string>自动</string>
           </property>
@@ -468,6 +645,17 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
         <item>
          <widget class="QPushButton" name="btn_Manual">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
+          </property>
           <property name="text">
            <string>手动</string>
           </property>
@@ -476,13 +664,31 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
        </layout>
       </item>
       <item row="0" column="1">
+       <spacer name="horizontalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>44</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="2">
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
          <widget class="QLabel" name="label_2">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>智能散料投饲机</string>
@@ -493,8 +699,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_3">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>电话：13326983676</string>
@@ -505,8 +716,13 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
          <widget class="QLabel" name="label_4">
           <property name="font">
            <font>
-            <pointsize>9</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
           </property>
           <property name="text">
            <string>地址:广州市南沙区新港大道一号</string>
@@ -515,17 +731,58 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
         </item>
        </layout>
       </item>
-      <item row="0" column="2">
-       <widget class="QPushButton" name="pushButton">
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_11">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
         </property>
-        <property name="text">
-         <string>结束</string>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>44</width>
+          <height>20</height>
+         </size>
         </property>
-       </widget>
+       </spacer>
+      </item>
+      <item row="0" column="4">
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
+          </property>
+          <property name="text">
+           <string>加料</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
+          </property>
+          <property name="text">
+           <string>结束</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </item>
      </layout>
     </widget>
@@ -549,8 +806,15 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
        <widget class="QPushButton" name="btn_AutoSet">
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
+QPushButton:hover { background-color: rgb(100, 0, 255); }
+QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>自动设置</string>
@@ -558,35 +822,95 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }</string>
        </widget>
       </item>
       <item row="0" column="1">
+       <spacer name="horizontalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>34</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="2">
        <widget class="QPushButton" name="btn_ManualSet">
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
+QPushButton:hover { background-color: rgb(100, 0, 255); }
+QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>手动设置</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="2">
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>33</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="4">
        <widget class="QPushButton" name="btn_History">
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
+QPushButton:hover { background-color: rgb(100, 0, 255); }
+QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>历史记录</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="3">
+      <item row="0" column="5">
+       <spacer name="horizontalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>34</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="6">
        <widget class="QPushButton" name="btn_Meun">
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
+QPushButton:hover { background-color: rgb(100, 0, 255); }
+QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>菜单</string>
