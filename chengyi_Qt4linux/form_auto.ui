@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>432</width>
-    <height>328</height>
+    <width>578</width>
+    <height>436</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,9 @@
    <item row="0" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_8">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(0, 0, 255);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -29,6 +31,9 @@
          <font>
           <pointsize>20</pointsize>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>自动投料设置</string>
@@ -48,13 +53,30 @@
         </property>
        </spacer>
       </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_Date">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
    <item row="1" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_2">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(255, 255, 0);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -69,6 +91,9 @@
       </item>
       <item row="0" column="1">
        <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <property name="text">
          <string>一餐目标量</string>
         </property>
@@ -137,7 +162,9 @@
    <item row="2" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_3">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(255, 255, 0);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -220,7 +247,9 @@
    <item row="3" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_4">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(255, 255, 0);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -303,7 +332,9 @@
    <item row="4" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_5">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(255, 255, 0);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -386,7 +417,9 @@
    <item row="5" column="0" colspan="2">
     <widget class="QGroupBox" name="groupBox_6">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(255, 255, 0);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -459,7 +492,9 @@
    <item row="6" column="0">
     <widget class="QGroupBox" name="groupBox_7">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ background-color:rgb(255, 255, 0);} 
+QGroupBox{ margin-top:0px;}
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -515,18 +550,6 @@
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
-       <widget class="QPushButton" name="btn_Cancel">
-        <property name="font">
-         <font>
-          <pointsize>9</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>取消</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
        <spacer name="horizontalSpacer">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -539,15 +562,19 @@
         </property>
        </spacer>
       </item>
-      <item row="0" column="2">
-       <widget class="QPushButton" name="btn_Confirm">
+      <item row="0" column="1">
+       <widget class="QPushButton" name="btn_quit">
         <property name="font">
          <font>
-          <pointsize>9</pointsize>
+          <pointsize>25</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(255, 0, 0);} 
+QPushButton:hover { background-color: rgb(255, 50, 0); }</string>
+        </property>
         <property name="text">
-         <string>确认</string>
+         <string>退出</string>
         </property>
        </widget>
       </item>
@@ -559,26 +586,10 @@
  <resources/>
  <connections>
   <connection>
-   <sender>btn_Cancel</sender>
+   <sender>btn_quit</sender>
    <signal>clicked()</signal>
    <receiver>Form_Auto</receiver>
    <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>52</x>
-     <y>304</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>215</x>
-     <y>163</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>btn_Confirm</sender>
-   <signal>clicked()</signal>
-   <receiver>Form_Auto</receiver>
-   <slot>raise()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>378</x>

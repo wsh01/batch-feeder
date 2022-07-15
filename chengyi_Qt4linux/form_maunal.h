@@ -2,6 +2,7 @@
 #define FORM_MAUNAL_H
 
 #include <QWidget>
+#include <QTimer>
 
 namespace Ui {
 class Form_Maunal;
@@ -17,6 +18,10 @@ public:
 
 private:
     Ui::Form_Maunal *ui;
+    QTimer *timer_calendar;//用来显示当前日期的定时器
+
+public slots:
+    void showDateTime();
 };
 
 #endif // FORM_MAUNAL_H

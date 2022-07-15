@@ -107,7 +107,7 @@ void Widget::on_btn_ManualSet_clicked()    //手动设置页面显示
     form_maunal->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
     form_maunal->setWindowTitle("手动设置");//窗口标题
     form_maunal->setWindowFlags(Qt::Dialog);//style
-    form_maunal->setWindowOpacity(0.9);//透明度
+    form_maunal->setWindowOpacity(1.0);//透明度
     form_maunal->show();//显示
 }
 
