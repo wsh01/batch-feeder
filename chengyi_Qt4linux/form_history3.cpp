@@ -1,11 +1,12 @@
-#include "form_meun.h"
-#include "ui_form_meun.h"
+#include "form_history3.h"
+#include "ui_form_history3.h"
 
-Form_Meun::Form_Meun(QWidget *parent) :
+Form_history3::Form_history3(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::Form_Meun)
+    ui(new Ui::Form_history3)
 {
     ui->setupUi(this);
+
     this->setFixedSize(800,500);//固定窗口大小
 
     QPalette bgpal = palette();
@@ -15,10 +16,9 @@ Form_Meun::Form_Meun(QWidget *parent) :
 
 
     this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
-
 }
 
-Form_Meun::~Form_Meun()
+Form_history3::~Form_history3()
 {
     delete ui;
 }

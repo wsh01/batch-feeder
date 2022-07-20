@@ -87,7 +87,7 @@ void Widget::on_btn_Meun_clicked()  //菜单页面显示
     form_meun->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
     form_meun->setWindowTitle("菜单");//窗口标题
     form_meun->setWindowFlags(Qt::Dialog);  //style
-    form_meun->setWindowOpacity(0.9);//透明度
+    form_meun->setWindowOpacity(1.0);//透明度
     form_meun->show();//显示
 }
 
@@ -97,7 +97,7 @@ void Widget::on_btn_History_clicked()   //历史记录页面显示
     form_history->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
     form_history->setWindowTitle("历史记录");//窗口标题
     form_history->setWindowFlags(Qt::Dialog);//style
-    form_history->setWindowOpacity(0.9);//透明度
+    form_history->setWindowOpacity(1.0);//透明度
     form_history->show();//显示
 }
 

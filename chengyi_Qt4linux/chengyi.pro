@@ -29,18 +29,24 @@ SOURCES += \
     form_meun.cpp \
     form_history.cpp \
     form_maunal.cpp \
-    form_auto.cpp
+    form_auto.cpp \
+    form_history2.cpp \
+    form_history3.cpp
 
 HEADERS += \
         widget.h \
     form_meun.h \
     form_history.h \
     form_maunal.h \
-    form_auto.h
+    form_auto.h \
+    form_history2.h \
+    form_history3.h
 
 FORMS += \
         widget.ui \
     form_meun.ui \
     form_history.ui \
     form_maunal.ui \
-    form_auto.ui
+    form_auto.ui \
+    form_history2.ui \
+    form_history3.ui

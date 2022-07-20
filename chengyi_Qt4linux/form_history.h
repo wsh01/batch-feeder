@@ -15,6 +15,11 @@ public:
     explicit Form_History(QWidget *parent = 0);
     ~Form_History();
 
+private slots:
+    void on_btn_History2_clicked();
+
+    void on_btn_History3_clicked();
+
 private:
     Ui::Form_History *ui;
 };
