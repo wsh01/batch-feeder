@@ -14,6 +14,97 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_3">
+   <item row="2" column="0">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
+QPushButton:hover { background-color: rgb(100, 0, 255); }
+QPushButton {color:rgb(255, 255, 255);}</string>
+        </property>
+        <property name="text">
+         <string>上料记录</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(136, 223, 223);} 
+QPushButton:hover { background-color: rgb(0, 223, 223); }
+QPushButton {color:rgb(0, 0, 0);}</string>
+        </property>
+        <property name="text">
+         <string>手动采集</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>284</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+          <italic>false</italic>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(180, 180, 180);} 
+QPushButton:hover { background-color: rgb(150, 150, 150); }
+QPushButton {color:rgb(0, 0, 0);}</string>
+        </property>
+        <property name="text">
+         <string>累计清除</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="btn_Return">
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton { background-color:rgb(255, 0, 0);} 
+QPushButton:hover { background-color: rgb(255,100, 100); }
+QPushButton {color:rgb(255, 255, 255);}</string>
+        </property>
+        <property name="text">
+         <string>返回</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
    <item row="0" column="0">
     <widget class="QGroupBox" name="groupBox">
      <property name="styleSheet">
@@ -117,96 +208,6 @@ QGroupBox:title {margin-top: 0px;}</string>
    </item>
    <item row="1" column="0">
     <widget class="QTableView" name="tableView"/>
-   </item>
-   <item row="2" column="0">
-    <widget class="QGroupBox" name="groupBox_2">
-     <property name="title">
-      <string/>
-     </property>
-     <layout class="QGridLayout" name="gridLayout_2">
-      <item row="0" column="0">
-       <widget class="QPushButton" name="pushButton">
-        <property name="font">
-         <font>
-          <pointsize>15</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
-QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
-        </property>
-        <property name="text">
-         <string>上料记录</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton_2">
-        <property name="font">
-         <font>
-          <pointsize>15</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton { background-color:rgb(136, 223, 223);} 
-QPushButton:hover { background-color: rgb(0, 223, 223); }
-QPushButton {color:rgb(0, 0, 0);}</string>
-        </property>
-        <property name="text">
-         <string>手动采集</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>284</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item row="0" column="3">
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="font">
-         <font>
-          <pointsize>15</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton { background-color:rgb(180, 180, 180);} 
-QPushButton:hover { background-color: rgb(150, 150, 150); }
-QPushButton {color:rgb(0, 0, 0);}</string>
-        </property>
-        <property name="text">
-         <string>累计清除</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="4">
-       <widget class="QPushButton" name="btn_Return">
-        <property name="font">
-         <font>
-          <pointsize>15</pointsize>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton { background-color:rgb(255, 0, 0);} 
-QPushButton:hover { background-color: rgb(255,100, 100); }
-QPushButton {color:rgb(255, 255, 255);}</string>
-        </property>
-        <property name="text">
-         <string>返回</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
    </item>
   </layout>
  </widget>

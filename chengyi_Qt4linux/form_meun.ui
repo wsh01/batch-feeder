@@ -50,7 +50,7 @@
        </spacer>
       </item>
       <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btn_Parameter">
         <property name="font">
          <font>
           <pointsize>15</pointsize>
@@ -299,7 +299,7 @@ QPushButton {color:rgb(255, 255, 255);}</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="0" column="1">
-       <widget class="QPushButton" name="pushButton_10">
+       <widget class="QPushButton" name="btn_Warning">
         <property name="font">
          <font>
           <pointsize>15</pointsize>
@@ -390,7 +390,8 @@ QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(255, 0, 0);} 
-QPushButton:hover { background-color: rgb(255, 50, 0); }</string>
+QPushButton:hover { background-color: rgb(255,100, 0); }
+QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
          <string>退出</string>

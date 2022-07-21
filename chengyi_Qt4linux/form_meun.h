@@ -15,6 +15,11 @@ public:
     explicit Form_Meun(QWidget *parent = 0);
     ~Form_Meun();
 
+private slots:
+    void on_btn_Warning_clicked();
+
+    void on_btn_Parameter_clicked();
+
 private:
     Ui::Form_Meun *ui;
 };

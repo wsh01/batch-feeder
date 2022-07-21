@@ -31,7 +31,9 @@ SOURCES += \
     form_maunal.cpp \
     form_auto.cpp \
     form_history2.cpp \
-    form_history3.cpp
+    form_history3.cpp \
+    form_warning.cpp \
+    form_parameter.cpp
 
 HEADERS += \
         widget.h \
@@ -40,7 +42,9 @@ HEADERS += \
     form_maunal.h \
     form_auto.h \
     form_history2.h \
-    form_history3.h
+    form_history3.h \
+    form_warning.h \
+    form_parameter.h
 
 FORMS += \
         widget.ui \
@@ -49,4 +53,6 @@ FORMS += \
     form_maunal.ui \
     form_auto.ui \
     form_history2.ui \
-    form_history3.ui
+    form_history3.ui \
+    form_warning.ui \
+    form_parameter.ui
