@@ -2,13 +2,8 @@
 <ui version="4.0">
  <class>Widget</class>
  <widget class="QWidget" name="Widget">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>684</width>
-    <height>448</height>
-   </rect>
+  <property name="enabled">
+   <bool>true</bool>
   </property>
   <property name="font">
    <font>
@@ -806,9 +801,10 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
        <widget class="QPushButton" name="btn_AutoSet">
         <property name="font">
          <font>
+          <family>Ubuntu</family>
           <pointsize>15</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="styleSheet">

@@ -13,7 +13,6 @@ Widget::Widget(QWidget *parent) :
 {
     QPalette bgpal = palette();
     bgpal.setColor (QPalette::Background, QColor (0, 0 , 0, 255));      //背景颜色
-//    bgpal.setColor (QPalette::Foreground, QColor (0,255,255,255));    //字体颜色
     setPalette (bgpal);
 
     ui->setupUi(this);
@@ -21,8 +20,8 @@ Widget::Widget(QWidget *parent) :
     Time_init();
     DataTime_init();
 
-    this->setFixedSize(800,500);//固定窗口大小
- //   this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
+    this->setFixedSize(800,480);//固定窗口大小
+    this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
 
 
 }
@@ -85,8 +84,7 @@ void Widget::on_btn_Meun_clicked()  //菜单页面显示
 {
     Form_Meun *form_meun = new Form_Meun(this);
     form_meun->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
-    form_meun->setWindowTitle("菜单");//窗口标题
-    form_meun->setWindowFlags(Qt::Dialog);  //style
+    form_meun->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
     form_meun->setWindowOpacity(1.0);//透明度
     form_meun->show();//显示
 }
@@ -95,8 +93,7 @@ void Widget::on_btn_History_clicked()   //历史记录页面显示
 {
     Form_History *form_history = new Form_History(this);
     form_history->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
-    form_history->setWindowTitle("历史记录");//窗口标题
-    form_history->setWindowFlags(Qt::Dialog);//style
+    form_history->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
     form_history->setWindowOpacity(1.0);//透明度
     form_history->show();//显示
 }
@@ -105,8 +102,7 @@ void Widget::on_btn_ManualSet_clicked()    //手动设置页面显示
 {
     Form_Maunal *form_maunal = new Form_Maunal(this);
     form_maunal->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
-    form_maunal->setWindowTitle("手动设置");//窗口标题
-    form_maunal->setWindowFlags(Qt::Dialog);//style
+    form_maunal->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
     form_maunal->setWindowOpacity(1.0);//透明度
     form_maunal->show();//显示
 }
@@ -115,8 +111,7 @@ void Widget::on_btn_AutoSet_clicked()  //自动设置页面显示
 {
     Form_Auto  *form_auto = new Form_Auto(this);
     form_auto->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
-    form_auto->setWindowTitle("自动设置");//窗口标题
-    form_auto->setWindowFlags(Qt::Dialog);//style
+    form_auto->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
     form_auto->setWindowOpacity(1.0);//透明度
     form_auto->show();//显示
 }
