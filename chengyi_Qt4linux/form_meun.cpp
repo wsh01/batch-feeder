@@ -31,12 +31,13 @@ void Form_Meun::on_btn_Warning_clicked()
 
 void Form_Meun::on_btn_Parameter_clicked()
 {
-    QString dlgTitle=QString::fromLocal8Bit("确认对话框");
-    QString strInfo=QString::fromLocal8Bit("确定吗？");
+ //   QString dlgTitle=QString::fromLocal8Bit("确认对话框");
+    QString dlgTitle=QString("确认对话框");
+    QString strInfo=QString("确定吗？");
     QMessageBox box(QMessageBox::Question, dlgTitle,strInfo);
     box.setStandardButtons(QMessageBox::Ok | QMessageBox::Cancel);
-    box.setButtonText(QMessageBox::Ok, QString::fromLocal8Bit("确 定"));
-    box.setButtonText(QMessageBox::Cancel, QString::fromLocal8Bit("取 消"));
+    box.setButtonText(QMessageBox::Ok, QString("确 定"));
+    box.setButtonText(QMessageBox::Cancel, QString("取 消"));
     box.setStyleSheet("QLabel{"
                       "min-width: 150px;"
                       "min-height: 100px;"
@@ -44,7 +45,7 @@ void Form_Meun::on_btn_Parameter_clicked()
                       "font-size: 20pt;"
                           "}");
     int button = box.exec();
-    if (button == QMessageBox::Ok)
+    if (button == QMessageBox::Ok) //如果按确定，则进入下一个界面
     {
         Form_parameter *form_parameter= new Form_parameter(this);
         form_parameter->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
