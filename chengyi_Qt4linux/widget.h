@@ -40,6 +40,7 @@ private slots:
     void on_btn_AutoSet_clicked();
     void on_btn_Auto_clicked();
     void on_btn_Manual_clicked();
+    void on_btn_Add_clicked();
 };
 
 #endif // WIDGET_H

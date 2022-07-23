@@ -33,7 +33,9 @@ SOURCES += \
     form_history2.cpp \
     form_history3.cpp \
     form_warning.cpp \
-    form_parameter.cpp
+    form_parameter.cpp \
+    softkeylineedit.cpp \
+    numkeyboard.cpp
 
 HEADERS += \
         widget.h \
@@ -44,7 +46,9 @@ HEADERS += \
     form_history2.h \
     form_history3.h \
     form_warning.h \
-    form_parameter.h
+    form_parameter.h \
+    softkeylineedit.h \
+    numkeyboard.h
 
 FORMS += \
         widget.ui \
@@ -56,3 +60,6 @@ FORMS += \
     form_history3.ui \
     form_warning.ui \
     form_parameter.ui
+
+RESOURCES += \
+    qss.qrc

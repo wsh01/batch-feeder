@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>565</width>
-    <height>448</height>
+    <height>457</height>
    </rect>
   </property>
   <property name="font">
@@ -810,7 +810,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
       <item row="0" column="4">
        <layout class="QVBoxLayout" name="verticalLayout_5">
         <item>
-         <widget class="QPushButton" name="pushButton_2">
+         <widget class="QPushButton" name="btn_Add">
           <property name="minimumSize">
            <size>
             <width>100</width>

@@ -6,6 +6,7 @@
 #include "form_history.h"
 #include "form_maunal.h"
 #include "form_auto.h"
+#include "softkeylineedit.h"//键盘
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
@@ -126,4 +127,13 @@ void Widget::on_btn_Manual_clicked()    //手动按钮槽函数
 {
     ui->btn_Auto->setEnabled(true);      //实现自动/手动按钮互斥，起单选效果
     ui->btn_Manual->setEnabled(false);
+}
+
+void Widget::on_btn_Add_clicked()  //加料按钮槽函数
+{
+//    SoftKeyLineEdit *pEdit_test = new SoftKeyLineEdit();   //键盘测试
+//    pEdit_test->setText("123456");
+//    pEdit_test->show();
+    NumKeyboard *board = new NumKeyboard();
+    board->show();
 }
