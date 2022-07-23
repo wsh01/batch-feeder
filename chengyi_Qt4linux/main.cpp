@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     Widget w;
     w.show();
-    QApplication::setOverrideCursor(Qt::BlankCursor);   //隐藏鼠标
+//    QApplication::setOverrideCursor(Qt::BlankCursor);   //隐藏鼠标
     //设置中文字体
 //      a.setFont(QFont("Microsoft Yahei", 9));
 

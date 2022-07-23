@@ -34,7 +34,6 @@ SOURCES += \
     form_history3.cpp \
     form_warning.cpp \
     form_parameter.cpp \
-    softkeylineedit.cpp \
     numkeyboard.cpp
 
 HEADERS += \
@@ -47,7 +46,6 @@ HEADERS += \
     form_history3.h \
     form_warning.h \
     form_parameter.h \
-    softkeylineedit.h \
     numkeyboard.h
 
 FORMS += \

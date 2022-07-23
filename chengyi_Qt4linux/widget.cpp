@@ -6,7 +6,7 @@
 #include "form_history.h"
 #include "form_maunal.h"
 #include "form_auto.h"
-#include "softkeylineedit.h"//键盘
+#include "numkeyboard.h"
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
@@ -117,23 +117,35 @@ void Widget::on_btn_AutoSet_clicked()  //自动设置页面显示
     form_auto->show();//显示
 }
 
-void Widget::on_btn_Auto_clicked()      //自动按钮槽函数
-{
-    ui->btn_Manual->setEnabled(true);   //实现自动/手动按钮互斥，起单选效果
-    ui->btn_Auto->setEnabled(false);
-}
 
-void Widget::on_btn_Manual_clicked()    //手动按钮槽函数
-{
-    ui->btn_Auto->setEnabled(true);      //实现自动/手动按钮互斥，起单选效果
-    ui->btn_Manual->setEnabled(false);
-}
+
+
 
 void Widget::on_btn_Add_clicked()  //加料按钮槽函数
 {
-//    SoftKeyLineEdit *pEdit_test = new SoftKeyLineEdit();   //键盘测试
-//    pEdit_test->setText("123456");
-//    pEdit_test->show();
-    NumKeyboard *board = new NumKeyboard();
-    board->show();
+//    NumKeyboard *numkeyboard = new NumKeyboard(this);
+//    numkeyboard->setWindowFlags(Qt::Dialog | Qt::FramelessWindowHint);
+//    numkeyboard->setStyleSheet("border:2px solid white;");
+//    numkeyboard->setText(ui->btn_Add->text());  //当前的文本框的内容
+//    numkeyboard->exec();
+//    if(numkeyboard->valid)
+//    {
+//       ui->btn_Add->setText(numkeyboard->getText());  //获取当前的文本
+//    }
+}
+
+void Widget::on_btn_Auto_clicked()
+{
+    static int i=0;
+    i++;
+    if(i%2)
+    {
+    ui->label_Auto->setStyleSheet("QLabel{color:rgb(255,0,0);}");
+    ui->label_Maunal->setStyleSheet("QLabel{color:rgb(200,200,200);}");
+    }
+    else
+    {
+    ui->label_Auto->setStyleSheet("QLabel{color:rgb(200,200,200);}");
+    ui->label_Maunal->setStyleSheet("QLabel{color:rgb(255,0,0);}");
+    }
 }

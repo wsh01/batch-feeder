@@ -2,6 +2,8 @@
 #include <QDebug>
 #include <QGridLayout>
 #include <QButtonGroup>
+#include <QFile>
+#include <QApplication>
 
 QString st_letter[11]={"0","1","2","3","4","5","6","7","8","9","."};
 
@@ -19,7 +21,7 @@ NumKeyboard::NumKeyboard(QWidget *parent) :
     backspaceButton = new QPushButton(this);
     backspaceButton->setText("<<");
     button_group->addButton(backspaceButton,12);
-    layout->addWidget(backspaceButton,2,3,1,2);
+    layout->addWidget(backspaceButton,1,3,1,2);
 
     num6Button = new QPushButton(this);
     num6Button->setText("6");
@@ -34,7 +36,7 @@ NumKeyboard::NumKeyboard(QWidget *parent) :
     leftButton = new QPushButton(this);
     leftButton->setText("<-");
     button_group->addButton(leftButton,13);
-    layout->addWidget(leftButton,3,3,1,1);
+    layout->addWidget(leftButton,2,3,1,1);
 
     num1Button = new QPushButton(this);
     num1Button->setText("1");
@@ -44,12 +46,12 @@ NumKeyboard::NumKeyboard(QWidget *parent) :
     cancelButton = new QPushButton(this);
     cancelButton->setText("取消");
     button_group->addButton(cancelButton,11);
-    layout->addWidget(cancelButton,1,3,1,2);
+    layout->addWidget(cancelButton,3,3,1,2);
 
     rightButton = new QPushButton(this);
     rightButton->setText("->");
     button_group->addButton(rightButton,14);
-    layout->addWidget(rightButton,3,4,1,1);
+    layout->addWidget(rightButton,2,4,1,1);
 
 
     num0Button = new QPushButton(this);
@@ -92,7 +94,20 @@ NumKeyboard::NumKeyboard(QWidget *parent) :
 
     lineEdit = new QLineEdit(this);
     lineEdit->setText(QString());
+    lineEdit->setFont(QFont( "Timers" , 35 ,  QFont::Bold) );
     layout->addWidget(lineEdit,0,0,1,5);
+
+    //通过资源文件修改键盘样式
+    QString qss;
+    QFile qssFile(":/myQss.qss");
+    qssFile.open(QFile::ReadOnly);
+    if(qssFile.isOpen())
+    {
+        qss = QLatin1String(qssFile.readAll());
+        qApp->setStyleSheet(qss);
+        qssFile.close();
+    }
+
 
     //连接button_group的点击信号，和本对象的buttonClickResponse函数，传递参数为按钮号
     connect(button_group,SIGNAL(buttonClicked(int)),SLOT(buttonClickResponse(int)));
@@ -150,7 +165,7 @@ void NumKeyboard::buttonClickResponse(int gemfield)        //
     {
         int idx = lineEdit->cursorPosition();  //光标的位置索引
 
-        //  字符串的存储有引用计数，当一个 QString 对象被复制为另一个 QString 对象时，它们实际上指向相同的存储空间，仅仅是增加一个引用计数
+        //字符串的存储有引用计数，当一个 QString 对象被复制为另一个 QString 对象时，它们实际上指向相同的存储空间，仅仅是增加一个引用计数
         strContent.insert(idx, st_letter[gemfield]);  //插入字符串str在给定的索引位置对这个字符串,并返回一个引用。 //数据存入strContent
         lineEdit->setText(strContent); //strContent中的内容显示在lineEdit
         lineEdit->setCursorPosition(idx+1); //设置光标的位置 ??不设置好像也可以使用设定光标的位置

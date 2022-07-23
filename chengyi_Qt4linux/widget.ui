@@ -29,8 +29,11 @@
    <item row="0" column="0">
     <widget class="QGroupBox" name="groupBox">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ background-color:rgb(0, 64, 128);} 
-QGroupBox{ margin-top:0px;}
+      <string notr="true">QGroupBox{ margin-top:0px;
+                           border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;
+                            background-color:rgb(0, 0, 255);  } 
 QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
@@ -90,7 +93,10 @@ QGroupBox:title {margin-top: 0px;}</string>
    <item row="1" column="0">
     <widget class="QGroupBox" name="groupBox_2">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ margin-top:0px;                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
+QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -123,7 +129,9 @@ QGroupBox:title {margin-top: 0px;}</string>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(136, 223, 223);} 
+           <string notr="true">QPushButton { background-color:rgb(136, 223, 223);                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
 QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
           </property>
           <property name="text">
@@ -153,7 +161,9 @@ QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(136, 223, 223);} 
+           <string notr="true">QPushButton { background-color:rgb(136, 223, 223);                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
 QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
           </property>
           <property name="text">
@@ -247,7 +257,9 @@ QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
 QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
@@ -257,6 +269,18 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
         </item>
         <item>
          <widget class="QPushButton" name="pushButton_4">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>40</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>12</pointsize>
@@ -265,7 +289,9 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
 QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
@@ -281,7 +307,9 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
    <item row="2" column="0">
     <widget class="QGroupBox" name="groupBox_3">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ margin-top:0px;                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -656,15 +684,17 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
    <item row="3" column="0">
     <widget class="QGroupBox" name="groupBox_4">
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ margin-top:0px;                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
      </property>
-     <layout class="QGridLayout" name="gridLayout_4">
+     <layout class="QGridLayout" name="gridLayout_7">
       <item row="0" column="0">
-       <layout class="QVBoxLayout" name="verticalLayout_4">
-        <item>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0" colspan="2">
          <widget class="QPushButton" name="btn_Auto">
           <property name="minimumSize">
            <size>
@@ -686,28 +716,18 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
 QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
-           <string>自动</string>
+           <string>自动/手动</string>
           </property>
          </widget>
         </item>
-        <item>
-         <widget class="QPushButton" name="btn_Manual">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>40</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>40</height>
-           </size>
-          </property>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_Auto">
           <property name="font">
            <font>
             <pointsize>12</pointsize>
@@ -715,9 +735,19 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
             <bold>true</bold>
            </font>
           </property>
-          <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
-QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
+          <property name="text">
+           <string>自动</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_Maunal">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
           </property>
           <property name="text">
            <string>手动</string>
@@ -831,41 +861,13 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
+           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} 
 QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
            <string>加料</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButton">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>40</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>40</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <pointsize>12</pointsize>
-            <weight>75</weight>
-            <bold>true</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">QPushButton { background-color:rgb(0, 255, 0);} 
-QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
-          </property>
-          <property name="text">
-           <string>结束</string>
           </property>
          </widget>
         </item>
@@ -883,7 +885,9 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">QGroupBox{ margin-top:0px;} QGroupBox:title {margin-top: 0px;}</string>
+      <string notr="true">QGroupBox{ margin-top:0px;                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;} QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <property name="title">
       <string/>
@@ -914,7 +918,11 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>自动设置</string>
@@ -958,7 +966,11 @@ QPushButton {color:rgb(255, 255, 255);}</string>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>手动设置</string>
@@ -1002,7 +1014,11 @@ QPushButton {color:rgb(255, 255, 255);}</string>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>历史记录</string>
@@ -1046,7 +1062,11 @@ QPushButton {color:rgb(255, 255, 255);}</string>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>菜单</string>
