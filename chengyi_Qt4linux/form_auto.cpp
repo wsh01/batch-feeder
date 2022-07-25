@@ -38,7 +38,6 @@ void Form_Auto::on_lineEdit_cursorPositionChanged(int arg1, int arg2)
 {
     NumKeyboard *numkeyboard = new NumKeyboard(this);
     numkeyboard->setWindowFlags(Qt::Dialog | Qt::FramelessWindowHint);
- //   numkeyboard->setStyleSheet("border:2px solid white;");
     numkeyboard->setText(ui->lineEdit->text());  //当前的文本框的内容
     numkeyboard->exec();
     if(numkeyboard->valid)

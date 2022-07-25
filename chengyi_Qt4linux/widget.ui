@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>565</width>
-    <height>457</height>
+    <width>695</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="font">
@@ -25,7 +25,7 @@
   <property name="tabletTracking" stdset="0">
    <bool>false</bool>
   </property>
-  <layout class="QGridLayout" name="gridLayout_6">
+  <layout class="QGridLayout" name="gridLayout_8">
    <item row="0" column="0">
     <widget class="QGroupBox" name="groupBox">
      <property name="styleSheet">
@@ -44,7 +44,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        <widget class="QLabel" name="label_Name">
         <property name="font">
          <font>
-          <pointsize>16</pointsize>
+          <pointsize>17</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -74,7 +74,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        <widget class="QLabel" name="label_date">
         <property name="font">
          <font>
-          <pointsize>12</pointsize>
+          <pointsize>13</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -111,19 +111,19 @@ QGroupBox:title {margin-top: 0px;}</string>
           </property>
           <property name="minimumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -143,19 +143,19 @@ QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
          <widget class="QPushButton" name="btn_Start">
           <property name="minimumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -192,7 +192,9 @@ QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
          <widget class="QLabel" name="label">
           <property name="font">
            <font>
-            <pointsize>25</pointsize>
+            <pointsize>40</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -207,7 +209,9 @@ QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
          <widget class="QLabel" name="label_Kg">
           <property name="font">
            <font>
-            <pointsize>25</pointsize>
+            <pointsize>40</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -239,19 +243,19 @@ QPushButton:hover { background-color: rgb(0, 223, 223); }</string>
          <widget class="QPushButton" name="btn_Reset">
           <property name="minimumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>100</width>
+            <width>110</width>
             <height>40</height>
            </size>
           </property>
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -271,19 +275,19 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QPushButton" name="pushButton_4">
           <property name="minimumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>100</width>
+            <width>120</width>
             <height>40</height>
            </size>
           </property>
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -321,7 +325,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_num">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -338,7 +342,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_5">
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -525,7 +529,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_6">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -542,7 +546,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_time">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -576,7 +580,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_16">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -593,7 +597,9 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_17">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -608,7 +614,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_18">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -629,7 +635,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_19">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -646,7 +652,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_20">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -663,7 +669,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_21">
           <property name="font">
            <font>
-            <pointsize>10</pointsize>
+            <pointsize>12</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -698,19 +704,19 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QPushButton" name="btn_Auto">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>40</height>
+            <width>120</width>
+            <height>50</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>100</width>
-            <height>40</height>
+            <width>120</width>
+            <height>50</height>
            </size>
           </property>
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -722,7 +728,7 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
 QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
-           <string>自动/手动</string>
+           <string>手/自动</string>
           </property>
          </widget>
         </item>
@@ -730,10 +736,13 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_Auto">
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(0, 255, 0);}</string>
           </property>
           <property name="text">
            <string>自动</string>
@@ -744,10 +753,13 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
          <widget class="QLabel" name="label_Maunal">
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(0, 0, 0);}</string>
           </property>
           <property name="text">
            <string>手动</string>
@@ -838,24 +850,24 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
        </spacer>
       </item>
       <item row="0" column="4">
-       <layout class="QVBoxLayout" name="verticalLayout_5">
-        <item>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0" colspan="2">
          <widget class="QPushButton" name="btn_Add">
           <property name="minimumSize">
            <size>
-            <width>100</width>
-            <height>40</height>
+            <width>120</width>
+            <height>50</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>100</width>
-            <height>40</height>
+            <width>120</width>
+            <height>50</height>
            </size>
           </property>
           <property name="font">
            <font>
-            <pointsize>12</pointsize>
+            <pointsize>15</pointsize>
             <weight>75</weight>
             <bold>true</bold>
            </font>
@@ -868,6 +880,40 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
           </property>
           <property name="text">
            <string>加料</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_Adding">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(0, 0, 0);}</string>
+          </property>
+          <property name="text">
+           <string>加料</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_End">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
+          </property>
+          <property name="text">
+           <string>结束</string>
           </property>
          </widget>
         </item>
@@ -897,14 +943,14 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
        <widget class="QPushButton" name="btn_AutoSet">
         <property name="minimumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="font">
@@ -946,14 +992,14 @@ QPushButton {color:rgb(255, 255, 255);
        <widget class="QPushButton" name="btn_ManualSet">
         <property name="minimumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="font">
@@ -994,14 +1040,14 @@ QPushButton {color:rgb(255, 255, 255);
        <widget class="QPushButton" name="btn_History">
         <property name="minimumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="font">
@@ -1042,14 +1088,14 @@ QPushButton {color:rgb(255, 255, 255);
        <widget class="QPushButton" name="btn_Meun">
         <property name="minimumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="maximumSize">
          <size>
-          <width>100</width>
-          <height>40</height>
+          <width>120</width>
+          <height>50</height>
          </size>
         </property>
         <property name="font">

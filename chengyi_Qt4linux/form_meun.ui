@@ -382,6 +382,18 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="btn_Quit">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>60</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>20</pointsize>
@@ -390,8 +402,12 @@ QPushButton {color:rgb(255, 255, 255);}</string>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(255, 0, 0);} 
-QPushButton:hover { background-color: rgb(255,100, 0); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton:hover { background-color: rgb(255, 50, 0); }
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>退出</string>

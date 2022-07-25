@@ -492,6 +492,18 @@ QGroupBox:title {margin-top: 0px;}</string>
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="btn_next">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>60</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>20</pointsize>
@@ -510,15 +522,31 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }
       </item>
       <item row="0" column="2">
        <widget class="QPushButton" name="btn_quit">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>60</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>20</pointsize>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">QPushButton { background-color:rgb(255, 0, 0);
-color:rgb(255, 255, 255);} 
-QPushButton:hover { background-color: rgb(255, 100, 0); }</string>
+         <string notr="true">QPushButton { background-color:rgb(255, 0, 0);} 
+QPushButton:hover { background-color: rgb(255, 50, 0); }
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>退   出</string>
