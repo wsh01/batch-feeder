@@ -66,18 +66,20 @@ QGroupBox:title {margin-top: 0px;}</string>
        </spacer>
       </item>
       <item row="0" column="2">
-       <widget class="QLabel" name="label_2">
+       <widget class="DataTimeShow" name="label_2">
         <property name="font">
          <font>
-          <pointsize>20</pointsize>
-          <italic>true</italic>
+          <pointsize>15</pointsize>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
-         <string>00:00</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -296,6 +298,13 @@ QPushButton {color:rgb(255, 255, 255);
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>DataTimeShow</class>
+   <extends>QLabel</extends>
+   <header>datatimeshow.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>

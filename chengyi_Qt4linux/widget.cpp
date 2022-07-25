@@ -1,6 +1,5 @@
 #include "widget.h"
 #include "ui_widget.h"
-#include <QDateTime>
 #include <QString>
 #include "form_meun.h"
 #include "form_history.h"
@@ -19,7 +18,6 @@ Widget::Widget(QWidget *parent) :
     ui->setupUi(this);
 
     Time_init();
-    DataTime_init();
 
     this->setFixedSize(800,480);//固定窗口大小
     this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
@@ -40,19 +38,6 @@ void Widget::Time_init()  //投料时间显示初始化
     connect(fTimer,SIGNAL(timeout()),this,SLOT(showTime()));//连接运行时间槽函数，每秒更新一次
 }
 
-void Widget::DataTime_init()
-{
-    timer_calendar = new QTimer(this);//创建日期显示定时器
-    connect(timer_calendar,SIGNAL(timeout()),this,SLOT(showDateTime()));//连接日期时间槽函数，每秒更新一次
-    timer_calendar->start(1000);//每一秒溢出一次进入槽函数
-}
-
-void Widget::showDateTime()  //显示当前日期时间
-{
-    QDateTime time = QDateTime::currentDateTime();
-    QString str = time.toString("yyyy-MM-dd hh:mm:ss");
-    ui->label_date->setText(str);
-}
 
 void Widget::showTime() //显示投料计时时间
 {

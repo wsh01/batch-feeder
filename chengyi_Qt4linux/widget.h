@@ -20,7 +20,6 @@ public:
 
 private:
     Ui::Widget *ui;
-    QTimer *timer_calendar;//用来显示当前日期的定时器
     QTimer *fTimer;       //辅助计时器的定时器
     QTime   fTimeCounter;//计时器
 
@@ -28,7 +27,6 @@ private:
     void DataTime_init();
 
 public slots:
-    void showDateTime();
     void showTime();
 
 private slots:

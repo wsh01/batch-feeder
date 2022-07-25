@@ -35,7 +35,8 @@ SOURCES += \
     form_warning.cpp \
     form_parameter.cpp \
     numkeyboard.cpp \
-    mylineedit.cpp
+    mylineedit.cpp \
+    datatimeshow.cpp
 
 HEADERS += \
         widget.h \
@@ -48,7 +49,8 @@ HEADERS += \
     form_warning.h \
     form_parameter.h \
     numkeyboard.h \
-    mylineedit.h
+    mylineedit.h \
+    datatimeshow.h
 
 FORMS += \
         widget.ui \

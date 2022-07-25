@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>695</width>
-    <height>480</height>
+    <height>486</height>
    </rect>
   </property>
   <property name="font">
@@ -71,10 +71,10 @@ QGroupBox:title {margin-top: 0px;}</string>
        </spacer>
       </item>
       <item row="0" column="2">
-       <widget class="QLabel" name="label_date">
+       <widget class="DataTimeShow" name="label_date">
         <property name="font">
          <font>
-          <pointsize>13</pointsize>
+          <pointsize>15</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>
@@ -83,7 +83,7 @@ QGroupBox:title {margin-top: 0px;}</string>
          <string notr="true">QLabel{color:rgb(255, 255, 255);}</string>
         </property>
         <property name="text">
-         <string>TextLabel</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -1125,6 +1125,13 @@ QPushButton {color:rgb(255, 255, 255);
   </layout>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>DataTimeShow</class>
+   <extends>QLabel</extends>
+   <header>datatimeshow.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
