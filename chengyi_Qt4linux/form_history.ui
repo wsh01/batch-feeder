@@ -39,7 +39,9 @@ QGroupBox:title {margin-top: 0px;}</string>
         <property name="font">
          <font>
           <pointsize>20</pointsize>
-          <italic>true</italic>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
@@ -120,16 +122,34 @@ QGroupBox:title {margin-top: 0px;}</string>
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="btn_History2">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>60</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
-          <italic>true</italic>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>123塘历史记录</string>
@@ -151,16 +171,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="3">
        <widget class="QPushButton" name="btn_History3">
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>60</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
-          <italic>true</italic>
+          <weight>75</weight>
+          <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>上料历史记录</string>

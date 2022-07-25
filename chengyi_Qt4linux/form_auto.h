@@ -23,7 +23,6 @@ private:
 
 private slots:
     void showDateTime();
-    void on_lineEdit_cursorPositionChanged(int arg1, int arg2);
 };
 
 #endif // FORM_AUTO_H

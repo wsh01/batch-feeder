@@ -34,7 +34,8 @@ SOURCES += \
     form_history3.cpp \
     form_warning.cpp \
     form_parameter.cpp \
-    numkeyboard.cpp
+    numkeyboard.cpp \
+    mylineedit.cpp
 
 HEADERS += \
         widget.h \
@@ -46,7 +47,8 @@ HEADERS += \
     form_history3.h \
     form_warning.h \
     form_parameter.h \
-    numkeyboard.h
+    numkeyboard.h \
+    mylineedit.h
 
 FORMS += \
         widget.ui \

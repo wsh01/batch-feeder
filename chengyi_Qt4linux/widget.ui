@@ -44,7 +44,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        <widget class="QLabel" name="label_Name">
         <property name="font">
          <font>
-          <pointsize>17</pointsize>
+          <pointsize>20</pointsize>
           <weight>75</weight>
           <bold>true</bold>
          </font>

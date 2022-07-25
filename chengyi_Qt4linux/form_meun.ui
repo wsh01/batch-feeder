@@ -51,16 +51,34 @@
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="btn_Parameter">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>参数设置</string>
@@ -69,16 +87,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="5">
        <widget class="QPushButton" name="pushButton_3">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>时间校对</string>
@@ -87,16 +123,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="3">
        <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string> 标定 </string>
@@ -182,16 +236,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="1">
        <widget class="QPushButton" name="pushButton_4">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>故障指示</string>
@@ -213,16 +285,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="3">
        <widget class="QPushButton" name="pushButton_5">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>手动测试</string>
@@ -244,16 +334,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
       </item>
       <item row="0" column="5">
        <widget class="QPushButton" name="pushButton_6">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>归零操作</string>
@@ -300,16 +408,34 @@ QPushButton {color:rgb(255, 255, 255);}</string>
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="0" column="1">
        <widget class="QPushButton" name="btn_Warning">
+        <property name="minimumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>50</height>
+         </size>
+        </property>
         <property name="font">
          <font>
           <pointsize>15</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton { background-color:rgb(0, 0, 255);} 
 QPushButton:hover { background-color: rgb(100, 0, 255); }
-QPushButton {color:rgb(255, 255, 255);}</string>
+QPushButton {color:rgb(255, 255, 255);
+                             border-style: outset;
+                           	border-width: 2px;
+	                         border-color: white;}
+</string>
         </property>
         <property name="text">
          <string>报警记录</string>
@@ -433,7 +559,9 @@ QGroupBox:title {margin-top: 0px;}</string>
         <property name="font">
          <font>
           <pointsize>20</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">

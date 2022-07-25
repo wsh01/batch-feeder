@@ -128,7 +128,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLineEdit" name="lineEdit">
+       <widget class="myLineEdit" name="lineEdit">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -140,6 +140,16 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
         </property>
        </widget>
       </item>
@@ -158,7 +168,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="4">
-       <widget class="QLineEdit" name="lineEdit_9">
+       <widget class="myLineEdit" name="lineEdit_9">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -170,6 +180,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -188,7 +205,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="6">
-       <widget class="QLineEdit" name="lineEdit_10">
+       <widget class="myLineEdit" name="lineEdit_10">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -200,6 +217,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -232,7 +256,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="9">
-       <widget class="QLineEdit" name="lineEdit_21">
+       <widget class="myLineEdit" name="lineEdit_21">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -244,6 +268,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -262,7 +293,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="11">
-       <widget class="QLineEdit" name="lineEdit_18">
+       <widget class="myLineEdit" name="lineEdit_18">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -274,6 +305,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -320,7 +358,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="5">
-       <widget class="QLineEdit" name="lineEdit_8">
+       <widget class="myLineEdit" name="lineEdit_8">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -332,6 +370,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -392,7 +437,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="7">
-       <widget class="QLineEdit" name="lineEdit_13">
+       <widget class="myLineEdit" name="lineEdit_13">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -404,11 +449,18 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
       <item row="0" column="11">
-       <widget class="QLineEdit" name="lineEdit_16">
+       <widget class="myLineEdit" name="lineEdit_16">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -420,11 +472,18 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
       <item row="0" column="13">
-       <widget class="QLineEdit" name="lineEdit_17">
+       <widget class="myLineEdit" name="lineEdit_17">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -436,6 +495,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -468,7 +534,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="3">
-       <widget class="QLineEdit" name="lineEdit_2">
+       <widget class="myLineEdit" name="lineEdit_2">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -480,6 +546,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -547,7 +620,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLineEdit" name="lineEdit_3">
+       <widget class="myLineEdit" name="lineEdit_3">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -559,6 +632,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -577,7 +657,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="4">
-       <widget class="QLineEdit" name="lineEdit_7">
+       <widget class="myLineEdit" name="lineEdit_7">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -589,6 +669,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -607,7 +694,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="6">
-       <widget class="QLineEdit" name="lineEdit_12">
+       <widget class="myLineEdit" name="lineEdit_12">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -619,6 +706,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -651,7 +745,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="9">
-       <widget class="QLineEdit" name="lineEdit_15">
+       <widget class="myLineEdit" name="lineEdit_15">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -663,6 +757,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -681,7 +782,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="11">
-       <widget class="QLineEdit" name="lineEdit_19">
+       <widget class="myLineEdit" name="lineEdit_19">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -693,6 +794,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -753,7 +861,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLineEdit" name="lineEdit_4">
+       <widget class="myLineEdit" name="lineEdit_4">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -765,6 +873,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -783,7 +898,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="4">
-       <widget class="QLineEdit" name="lineEdit_6">
+       <widget class="myLineEdit" name="lineEdit_6">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -795,6 +910,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -813,7 +935,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="6">
-       <widget class="QLineEdit" name="lineEdit_11">
+       <widget class="myLineEdit" name="lineEdit_11">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -825,6 +947,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -857,7 +986,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="9">
-       <widget class="QLineEdit" name="lineEdit_14">
+       <widget class="myLineEdit" name="lineEdit_14">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -869,6 +998,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -887,7 +1023,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="11">
-       <widget class="QLineEdit" name="lineEdit_20">
+       <widget class="myLineEdit" name="lineEdit_20">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -899,6 +1035,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -959,7 +1102,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLineEdit" name="lineEdit_5">
+       <widget class="myLineEdit" name="lineEdit_5">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -971,6 +1114,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -1030,7 +1180,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="7">
-       <widget class="QLineEdit" name="lineEdit_22">
+       <widget class="myLineEdit" name="lineEdit_22">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -1042,6 +1192,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -1102,7 +1259,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLineEdit" name="lineEdit_23">
+       <widget class="myLineEdit" name="lineEdit_23">
         <property name="minimumSize">
          <size>
           <width>60</width>
@@ -1114,6 +1271,13 @@ QGroupBox:title {margin-top: 0px;}</string>
           <width>60</width>
           <height>45</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>17</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
         </property>
        </widget>
       </item>
@@ -1195,6 +1359,13 @@ QPushButton {color:rgb(255, 255, 255);
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>myLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>mylineedit.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>
