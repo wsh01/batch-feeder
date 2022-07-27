@@ -20,6 +20,12 @@ private slots:
 
     void on_btn_Parameter_clicked();
 
+    void on_btn_standardization_clicked();
+
+    void on_btn_timeModify_clicked();
+
+    void on_btn_malfunction_clicked();
+
 private:
     Ui::Form_Meun *ui;
 };

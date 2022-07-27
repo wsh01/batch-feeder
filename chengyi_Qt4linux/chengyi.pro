@@ -36,7 +36,10 @@ SOURCES += \
     form_parameter.cpp \
     numkeyboard.cpp \
     mylineedit.cpp \
-    datatimeshow.cpp
+    datatimeshow.cpp \
+    form_standardization.cpp \
+    form_timemodify.cpp \
+    form_malfunction.cpp
 
 HEADERS += \
         widget.h \
@@ -50,7 +53,10 @@ HEADERS += \
     form_parameter.h \
     numkeyboard.h \
     mylineedit.h \
-    datatimeshow.h
+    datatimeshow.h \
+    form_standardization.h \
+    form_timemodify.h \
+    form_malfunction.h
 
 FORMS += \
         widget.ui \
@@ -61,7 +67,10 @@ FORMS += \
     form_history2.ui \
     form_history3.ui \
     form_warning.ui \
-    form_parameter.ui
+    form_parameter.ui \
+    form_standardization.ui \
+    form_timemodify.ui \
+    form_malfunction.ui
 
 RESOURCES += \
     qss.qrc
