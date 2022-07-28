@@ -6,6 +6,8 @@
 #include "form_standardization.h"
 #include "form_timemodify.h"
 #include "form_malfunction.h"
+#include "form_maunaltext.h"
+#include "form_zero.h"
 
 
 Form_Meun::Form_Meun(QWidget *parent) :
@@ -118,4 +120,54 @@ void Form_Meun::on_btn_malfunction_clicked()
     form_malfunction->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
     form_malfunction->setWindowOpacity(1.0);//透明度
     form_malfunction->show();//显示
+}
+
+void Form_Meun::on_btn_maunalText_clicked()
+{
+    QString dlgTitle=QString("确认对话框");
+    QString strInfo=QString("确定吗？");
+    QMessageBox box(QMessageBox::Question, dlgTitle,strInfo);
+    box.setStandardButtons(QMessageBox::Ok | QMessageBox::Cancel);
+    box.setButtonText(QMessageBox::Ok, QString("确 定"));
+    box.setButtonText(QMessageBox::Cancel, QString("取 消"));
+    box.setStyleSheet("QLabel{"
+                      "min-width: 150px;"
+                      "min-height: 100px;"
+                      "color:rgb(0,0, 255);"
+                      "font-size: 20pt;"
+                          "}");
+    int button = box.exec();
+    if (button == QMessageBox::Ok) //如果按确定，则进入下一个界面
+    {
+        Form_maunalText *form_maunalText= new Form_maunalText(this);
+        form_maunalText->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
+        form_maunalText->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
+        form_maunalText->setWindowOpacity(1.0);//透明度
+        form_maunalText->show();//显示
+    }
+}
+
+void Form_Meun::on_btn_zero_clicked()
+{
+    QString dlgTitle=QString("确认对话框");
+    QString strInfo=QString("确定吗？");
+    QMessageBox box(QMessageBox::Question, dlgTitle,strInfo);
+    box.setStandardButtons(QMessageBox::Ok | QMessageBox::Cancel);
+    box.setButtonText(QMessageBox::Ok, QString("确 定"));
+    box.setButtonText(QMessageBox::Cancel, QString("取 消"));
+    box.setStyleSheet("QLabel{"
+                      "min-width: 150px;"
+                      "min-height: 100px;"
+                      "color:rgb(0,0, 255);"
+                      "font-size: 20pt;"
+                          "}");
+    int button = box.exec();
+    if (button == QMessageBox::Ok) //如果按确定，则进入下一个界面
+    {
+        Form_zero *form_zero= new Form_zero(this);
+        form_zero->setAttribute(Qt::WA_DeleteOnClose);//关闭时自动删除
+        form_zero->setWindowFlags(Qt::Dialog|Qt::FramelessWindowHint);//去除窗口标题栏
+        form_zero->setWindowOpacity(1.0);//透明度
+        form_zero->show();//显示
+    }
 }

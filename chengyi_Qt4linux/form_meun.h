@@ -26,6 +26,10 @@ private slots:
 
     void on_btn_malfunction_clicked();
 
+    void on_btn_maunalText_clicked();
+
+    void on_btn_zero_clicked();
+
 private:
     Ui::Form_Meun *ui;
 };

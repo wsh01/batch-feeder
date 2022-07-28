@@ -39,7 +39,9 @@ SOURCES += \
     datatimeshow.cpp \
     form_standardization.cpp \
     form_timemodify.cpp \
-    form_malfunction.cpp
+    form_malfunction.cpp \
+    form_maunaltext.cpp \
+    form_zero.cpp
 
 HEADERS += \
         widget.h \
@@ -56,7 +58,9 @@ HEADERS += \
     datatimeshow.h \
     form_standardization.h \
     form_timemodify.h \
-    form_malfunction.h
+    form_malfunction.h \
+    form_maunaltext.h \
+    form_zero.h
 
 FORMS += \
         widget.ui \
@@ -70,7 +74,9 @@ FORMS += \
     form_parameter.ui \
     form_standardization.ui \
     form_timemodify.ui \
-    form_malfunction.ui
+    form_malfunction.ui \
+    form_maunaltext.ui \
+    form_zero.ui
 
 RESOURCES += \
     qss.qrc
