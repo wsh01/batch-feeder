@@ -15,6 +15,11 @@ public:
     explicit Form_maunalText(QWidget *parent = 0);
     ~Form_maunalText();
 
+private slots:
+    void on_btn_fan_pressed();
+
+    void on_btn_fan_released();
+
 private:
     Ui::Form_maunalText *ui;
 };

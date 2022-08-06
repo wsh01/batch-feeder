@@ -140,7 +140,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="0" column="0">
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="label_fan">
         <property name="font">
          <font>
           <pointsize>15</pointsize>
@@ -160,7 +160,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="label_feeding">
         <property name="font">
          <font>
           <pointsize>15</pointsize>
@@ -180,7 +180,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="label_throw">
         <property name="font">
          <font>
           <pointsize>15</pointsize>
@@ -200,7 +200,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="0" column="3">
-       <widget class="QLabel" name="label_5">
+       <widget class="QLabel" name="label_reversal">
         <property name="font">
          <font>
           <pointsize>15</pointsize>
@@ -220,7 +220,7 @@ QGroupBox:title {margin-top: 0px;}</string>
        </widget>
       </item>
       <item row="1" column="0">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btn_fan">
         <property name="minimumSize">
          <size>
           <width>120</width>
@@ -255,7 +255,7 @@ QPushButton {color:rgb(0, 0, 0);
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="btn_feeding">
         <property name="minimumSize">
          <size>
           <width>120</width>
@@ -290,7 +290,7 @@ QPushButton {color:rgb(0, 0, 0);
        </widget>
       </item>
       <item row="1" column="2">
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="btn_throw">
         <property name="minimumSize">
          <size>
           <width>120</width>
@@ -325,7 +325,7 @@ QPushButton {color:rgb(0, 0, 0);
        </widget>
       </item>
       <item row="1" column="3">
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="btn_reversal">
         <property name="minimumSize">
          <size>
           <width>120</width>
@@ -400,8 +400,10 @@ QPushButton {color:rgb(0, 0, 0);
         </property>
         <property name="font">
          <font>
-          <pointsize>20</pointsize>
+          <pointsize>25</pointsize>
+          <weight>75</weight>
           <italic>false</italic>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
@@ -439,7 +441,6 @@ QPushButton {color:rgb(255, 255, 255);
   <zorder>groupBox</zorder>
   <zorder>groupBox_2</zorder>
   <zorder>groupBox_3</zorder>
-  <zorder>horizontalSpacer_15</zorder>
   <zorder>verticalSpacer</zorder>
   <zorder>verticalSpacer_2</zorder>
  </widget>

@@ -374,7 +374,9 @@ QGroupBox:title {margin-top: 0px;}</string>
         </property>
         <property name="font">
          <font>
-          <pointsize>20</pointsize>
+          <pointsize>25</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">

@@ -18,3 +18,17 @@ Form_maunalText::~Form_maunalText()
 {
     delete ui;
 }
+
+void Form_maunalText::on_btn_fan_pressed()
+{
+    ui->label_fan->setStyleSheet("QLabel{"
+                                 "color:rgb(255,255, 255);"
+                                     "}");
+}
+
+void Form_maunalText::on_btn_fan_released()
+{
+    ui->label_fan->setStyleSheet("QLabel{"
+                                 "color:rgb(0,255, 255);"
+                                     "}");
+}
