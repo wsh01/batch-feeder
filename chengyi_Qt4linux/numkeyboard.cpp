@@ -80,10 +80,10 @@ NumKeyboard::NumKeyboard(QWidget *parent) :
     button_group->addButton(num7Button,7);
     layout->addWidget(num7Button,3,0,1,1);
 
-    dotButton = new QPushButton(this);
-    dotButton->setText(".");
-    button_group->addButton(dotButton,10);
-    layout->addWidget(dotButton,4,2,1,1);
+//    dotButton = new QPushButton(this);
+//    dotButton->setText(".");
+//    button_group->addButton(dotButton,10);
+//    layout->addWidget(dotButton,4,2,1,1);
 
     num3Button = new QPushButton(this);
     num3Button->setText("3");

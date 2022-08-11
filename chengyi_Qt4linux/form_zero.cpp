@@ -8,7 +8,7 @@ Form_zero::Form_zero(QWidget *parent) :
     ui->setupUi(this);
 
     QPalette bgpal = palette();
-    bgpal.setColor (QPalette::Background, QColor (0, 0 , 0, 255));      //背景颜色
+    bgpal.setColor (QPalette::Background, QColor (0,0,0));      //背景颜色
     setPalette (bgpal);
 
     this->setFixedSize(800,480);//固定窗口大小

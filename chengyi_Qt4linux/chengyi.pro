@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -41,7 +42,8 @@ SOURCES += \
     form_timemodify.cpp \
     form_malfunction.cpp \
     form_maunaltext.cpp \
-    form_zero.cpp
+    form_zero.cpp \
+    database.cpp
 
 HEADERS += \
         widget.h \
@@ -60,7 +62,8 @@ HEADERS += \
     form_timemodify.h \
     form_malfunction.h \
     form_maunaltext.h \
-    form_zero.h
+    form_zero.h \
+    database.h
 
 FORMS += \
         widget.ui \

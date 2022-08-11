@@ -1,10 +1,14 @@
 #include "widget.h"
 #include <QApplication>
 #include <QTextCodec>
+#include "database.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    DataBase database;
+    database.DataBase_init();
+
     Widget w;
     w.show();
 //    QApplication::setOverrideCursor(Qt::BlankCursor);   //隐藏鼠标
@@ -25,6 +29,7 @@ int main(int argc, char *argv[])
       QTextCodec *codec = QTextCodec::codecForName("utf-8");
       QTextCodec::setCodecForLocale(codec);
   #endif
+
     return a.exec();
 }
 

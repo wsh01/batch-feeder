@@ -149,7 +149,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>给料时间</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_5">
+   <widget class="myLineEdit" name="lineEdit_5_1">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -256,7 +256,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>塘上次投料速度约</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_23">
+   <widget class="myLineEdit" name="lineEdit_6_1">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -421,7 +421,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>给料间隔时间</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_22">
+   <widget class="myLineEdit" name="lineEdit_5_2">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -530,7 +530,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>一餐目标量</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_6">
+   <widget class="myLineEdit" name="lineEdit_1_1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -615,7 +615,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_7">
+   <widget class="myLineEdit" name="lineEdit_1_3">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -662,7 +662,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_8">
+   <widget class="myLineEdit" name="lineEdit_1_2">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -727,7 +727,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_9">
+   <widget class="myLineEdit" name="lineEdit_1_5">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -774,7 +774,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_10">
+   <widget class="myLineEdit" name="lineEdit_1_4">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -902,7 +902,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>一餐目标量</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_11">
+   <widget class="myLineEdit" name="lineEdit_2_1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -1026,7 +1026,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_12">
+   <widget class="myLineEdit" name="lineEdit_2_3">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1073,7 +1073,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_13">
+   <widget class="myLineEdit" name="lineEdit_2_2">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1138,7 +1138,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_14">
+   <widget class="myLineEdit" name="lineEdit_2_5">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1185,7 +1185,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_15">
+   <widget class="myLineEdit" name="lineEdit_2_4">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1274,7 +1274,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>一餐目标量</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_16">
+   <widget class="myLineEdit" name="lineEdit_3_1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -1359,7 +1359,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_17">
+   <widget class="myLineEdit" name="lineEdit_3_3">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1406,7 +1406,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_18">
+   <widget class="myLineEdit" name="lineEdit_3_2">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1471,7 +1471,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_19">
+   <widget class="myLineEdit" name="lineEdit_3_5">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1518,7 +1518,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_20">
+   <widget class="myLineEdit" name="lineEdit_3_4">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1646,7 +1646,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>一餐目标量</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_21">
+   <widget class="myLineEdit" name="lineEdit_4_1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -1731,7 +1731,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_24">
+   <widget class="myLineEdit" name="lineEdit_4_5">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1778,7 +1778,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_25">
+   <widget class="myLineEdit" name="lineEdit_4_4">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1882,7 +1882,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>时</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_26">
+   <widget class="myLineEdit" name="lineEdit_4_3">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -1929,7 +1929,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>分</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_27">
+   <widget class="myLineEdit" name="lineEdit_4_2">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -1959,29 +1959,6 @@ QGroupBox:title {margin-top: 0px;}</string>
     </property>
    </widget>
   </widget>
-  <zorder>groupBox_8</zorder>
-  <zorder>groupBox_6</zorder>
-  <zorder>groupBox_7</zorder>
-  <zorder>groupBox</zorder>
-  <zorder>btn_quit</zorder>
-  <zorder>groupBox_9</zorder>
-  <zorder>groupBox_10</zorder>
-  <zorder>groupBox_11</zorder>
-  <zorder>groupBox_12</zorder>
-  <zorder>groupBox_13</zorder>
-  <zorder>label_10</zorder>
-  <zorder>groupBox_14</zorder>
-  <zorder>groupBox_15</zorder>
-  <zorder>groupBox_16</zorder>
-  <zorder>groupBox_17</zorder>
-  <zorder>groupBox_18</zorder>
-  <zorder>groupBox_19</zorder>
-  <zorder>groupBox_20</zorder>
-  <zorder>groupBox_21</zorder>
-  <zorder>groupBox_22</zorder>
-  <zorder>groupBox_23</zorder>
-  <zorder>groupBox_24</zorder>
-  <zorder>groupBox_25</zorder>
  </widget>
  <customwidgets>
   <customwidget>

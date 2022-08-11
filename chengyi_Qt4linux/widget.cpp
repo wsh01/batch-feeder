@@ -20,7 +20,7 @@ Widget::Widget(QWidget *parent) :
     Time_init();
 
     this->setFixedSize(800,480);//固定窗口大小
- //   this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
+    this->setWindowFlags(Qt::FramelessWindowHint);//去除窗体边框
 
 
 }
