@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QTimer>
 #include <QTime>
-
+#include <form_auto.h>
 
 namespace Ui {
 class Widget;

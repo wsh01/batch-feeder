@@ -17,8 +17,11 @@ public:
 
 private:
     Ui::Form_Auto *ui;
+    void data_show();
 
 private slots:
+
+signals:
 
 };
 

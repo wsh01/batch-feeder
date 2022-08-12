@@ -18,6 +18,7 @@ public:
 
 private:
     Ui::Form_Maunal *ui;
+    void data_show();
 
 
 public slots:

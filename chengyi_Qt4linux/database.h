@@ -10,8 +10,7 @@ class DataBase
 {
 public:
     DataBase();
-    void DataBase_init();
-    void modifyData(QString name,int data);
+    void lineedit_data_init();
 };
 
 #endif // DATABASE_H

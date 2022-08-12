@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::Form_parameter *ui;
+    void data_show();
 };
 
 #endif // FORM_PARAMETER_H

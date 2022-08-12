@@ -126,7 +126,7 @@ void Widget::on_btn_Add_clicked()  //加料按钮槽函数
      i++;
 }
 
-void Widget::on_btn_Auto_clicked()
+void Widget::on_btn_Auto_clicked()  //手/自动按钮槽函数
 {
     static int i=0;
     if(i%2)

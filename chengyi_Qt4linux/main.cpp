@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     DataBase database;
-    database.DataBase_init();
+    database.lineedit_data_init();
 
     Widget w;
     w.show();

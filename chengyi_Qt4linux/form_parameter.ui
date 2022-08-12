@@ -110,7 +110,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_25">
+   <widget class="myLineEdit" name="para_lineEdit_2_1">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -137,6 +137,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_49">
@@ -201,7 +204,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_31">
+   <widget class="myLineEdit" name="para_lineEdit_1_2">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -228,6 +231,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_55">
@@ -292,7 +298,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_24">
+   <widget class="myLineEdit" name="para_lineEdit_1_1">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -319,6 +325,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_48">
@@ -383,7 +392,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_30">
+   <widget class="myLineEdit" name="para_lineEdit_8">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -410,6 +419,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_54">
@@ -474,7 +486,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_27">
+   <widget class="myLineEdit" name="para_lineEdit_4">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -501,6 +513,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_51">
@@ -565,7 +580,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_23">
+   <widget class="myLineEdit" name="para_lineEdit_6">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -592,6 +607,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_47">
@@ -632,7 +650,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLineEdit" name="lineEdit_29">
+   <widget class="myLineEdit" name="para_lineEdit_7">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -659,6 +677,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_53">
@@ -747,7 +768,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_28">
+   <widget class="myLineEdit" name="para_lineEdit_5">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -774,6 +795,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_52">
@@ -838,7 +862,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_32">
+   <widget class="myLineEdit" name="para_lineEdit_2_2">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -865,6 +889,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_56">
@@ -929,7 +956,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_26">
+   <widget class="myLineEdit" name="para_lineEdit_3">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -956,6 +983,9 @@ QGroupBox:title {margin-top: 0px;}</string>
       <weight>75</weight>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_50">
@@ -1075,8 +1105,14 @@ QPushButton:hover { background-color: rgb(0, 100, 255); }
   <zorder>groupBox_14</zorder>
   <zorder>btn_quit</zorder>
   <zorder>btn_next</zorder>
-  <zorder>label_19</zorder>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>myLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>mylineedit.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>

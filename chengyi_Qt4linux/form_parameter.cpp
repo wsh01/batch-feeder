@@ -11,9 +11,23 @@ Form_parameter::Form_parameter(QWidget *parent) :
     QPalette bgpal = palette();
     bgpal.setColor (QPalette::Background, QColor (0, 0 , 0, 255));      //背景颜色
     setPalette (bgpal);
+    data_show();
 }
 
 Form_parameter::~Form_parameter()
 {
     delete ui;
+}
+void Form_parameter::data_show()
+{
+    ui->para_lineEdit_1_1->data_show();
+    ui->para_lineEdit_1_2->data_show();
+    ui->para_lineEdit_2_1->data_show();
+    ui->para_lineEdit_2_2->data_show();
+    ui->para_lineEdit_3->data_show();
+    ui->para_lineEdit_4->data_show();
+    ui->para_lineEdit_5->data_show();
+    ui->para_lineEdit_6->data_show();
+    ui->para_lineEdit_7->data_show();
+    ui->para_lineEdit_8->data_show();
 }

@@ -102,7 +102,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="myLineEdit" name="lineEdit_5">
+   <widget class="myLineEdit" name="maunal_lineEdit_3_1">
     <property name="geometry">
      <rect>
       <x>230</x>
@@ -132,6 +132,9 @@ QGroupBox:title {margin-top: 0px;}</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_17">
@@ -257,7 +260,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>给料间隔时间</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_4">
+   <widget class="myLineEdit" name="maunal_lineEdit_2_2">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -287,6 +290,9 @@ QGroupBox:title {margin-top: 0px;}</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_14">
@@ -374,7 +380,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>给料时间</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_3">
+   <widget class="myLineEdit" name="maunal_lineEdit_2_1">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -405,6 +411,9 @@ QGroupBox:title {margin-top: 0px;}</string>
     <property name="text">
      <string/>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="label_11">
     <property name="geometry">
@@ -426,13 +435,6 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>kg</string>
     </property>
    </widget>
-   <zorder>label_9</zorder>
-   <zorder>label_10</zorder>
-   <zorder>lineEdit_3</zorder>
-   <zorder>label_11</zorder>
-   <zorder>label_5</zorder>
-   <zorder>label_8</zorder>
-   <zorder>label_14</zorder>
   </widget>
   <widget class="QGroupBox" name="groupBox_2">
    <property name="geometry">
@@ -496,7 +498,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>手动目标量</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit">
+   <widget class="myLineEdit" name="maunal_lineEdit_1_1">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -527,6 +529,9 @@ QGroupBox:title {margin-top: 0px;}</string>
     <property name="text">
      <string/>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
@@ -548,11 +553,6 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>kg</string>
     </property>
    </widget>
-   <zorder>label_3</zorder>
-   <zorder>label_4</zorder>
-   <zorder>lineEdit</zorder>
-   <zorder>label_5</zorder>
-   <zorder>groupBox_5</zorder>
   </widget>
   <widget class="QGroupBox" name="groupBox_5">
    <property name="geometry">
@@ -616,7 +616,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>手动投喂时间</string>
     </property>
    </widget>
-   <widget class="myLineEdit" name="lineEdit_2">
+   <widget class="myLineEdit" name="maunal_lineEdit_1_2">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -646,6 +646,9 @@ QGroupBox:title {margin-top: 0px;}</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -708,14 +711,6 @@ QPushButton {color:rgb(255, 255, 255);
     <string>退出</string>
    </property>
   </widget>
-  <zorder>groupBox</zorder>
-  <zorder>groupBox_5</zorder>
-  <zorder>groupBox_4</zorder>
-  <zorder>groupBox_6</zorder>
-  <zorder>groupBox_3</zorder>
-  <zorder>groupBox_2</zorder>
-  <zorder>groupBox_5</zorder>
-  <zorder>btn_Quit</zorder>
  </widget>
  <customwidgets>
   <customwidget>

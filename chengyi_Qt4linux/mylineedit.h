@@ -11,6 +11,7 @@ class myLineEdit: public QLineEdit
 public:
    myLineEdit();
    explicit myLineEdit(QWidget *parent = 0);
+   void data_show();
 
 protected:
     void mousePressEvent(QMouseEvent *e);
@@ -21,7 +22,7 @@ private:
 signals:
 
 public slots:
-    void updata();
+    void data_update();
 };
 
 #endif // MYLINEEDIT_H
