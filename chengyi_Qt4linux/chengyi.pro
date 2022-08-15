@@ -42,8 +42,7 @@ SOURCES += \
     form_timemodify.cpp \
     form_malfunction.cpp \
     form_maunaltext.cpp \
-    form_zero.cpp \
-    database.cpp
+    form_zero.cpp
 
 HEADERS += \
         widget.h \
@@ -62,8 +61,7 @@ HEADERS += \
     form_timemodify.h \
     form_malfunction.h \
     form_maunaltext.h \
-    form_zero.h \
-    database.h
+    form_zero.h
 
 FORMS += \
         widget.ui \

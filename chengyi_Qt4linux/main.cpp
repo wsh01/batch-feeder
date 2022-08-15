@@ -1,13 +1,20 @@
 #include "widget.h"
 #include <QApplication>
 #include <QTextCodec>
-#include "database.h"
+#include <QSqlDatabase>
+#include <QDebug>
+#include <QSqlError>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    DataBase database;
-    database.lineedit_data_init();
+//连接到my.db数据库文件，文件路径为项目编译运行后的build--Debug文件夹里，如有my.db文件则打开，没有则会新建一个
+    QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");  //创建数据库链接句柄
+    db.setDatabaseName("my.db");//设置数据库名称
+    if(!db.open())//打开数据库
+    {
+        qDebug()<<db.lastError().text();//输出错误信息
+    }
 
     Widget w;
     w.show();
