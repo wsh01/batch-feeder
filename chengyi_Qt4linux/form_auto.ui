@@ -109,7 +109,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_5">
+   <widget class="myNumLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -222,7 +222,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_6">
+   <widget class="myNumLabel" name="label_6">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -393,7 +393,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_11">
+   <widget class="myNumLabel" name="label_11">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -506,7 +506,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_8">
+   <widget class="myNumLabel" name="label_8">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -911,7 +911,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_17">
+   <widget class="myNumLabel" name="label_17">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -1313,7 +1313,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_22">
+   <widget class="myNumLabel" name="label_22">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -1715,7 +1715,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_27">
+   <widget class="myNumLabel" name="label_27">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -2111,6 +2111,11 @@ QGroupBox:title {margin-top: 0px;}</string>
    <class>myLineEdit</class>
    <extends>QLineEdit</extends>
    <header>mylineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>myNumLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">mynumlabel.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -48,5 +48,12 @@ void Form_Auto::data_show()
     ui->auto_lineEdit_5_1->data_show();
     ui->auto_lineEdit_5_2->data_show();
     ui->auto_lineEdit_6_1->data_show();
+    ui->label_8->data_show();
+     ui->label_17->data_show();
+      ui->label_22->data_show();
+       ui->label_27->data_show();
+        ui->label_5->data_show();
+         ui->label_11->data_show();
+          ui->label_6->data_show();
 }
 

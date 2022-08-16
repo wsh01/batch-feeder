@@ -157,7 +157,7 @@ QGroupBox:title {margin-top: 0px;}</string>
      <string>Kg/分钟</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_15">
+   <widget class="myNumLabel" name="label_15">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -220,7 +220,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_12">
+   <widget class="myNumLabel" name="label_12">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -340,7 +340,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_9">
+   <widget class="myNumLabel" name="label_9">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -458,7 +458,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_3">
+   <widget class="myNumLabel" name="label_3">
     <property name="geometry">
      <rect>
       <x>11</x>
@@ -576,7 +576,7 @@ QGroupBox:title {margin-top: 0px;}</string>
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_6">
+   <widget class="myNumLabel" name="label_6">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -722,6 +722,11 @@ QPushButton {color:rgb(255, 255, 255);
    <class>myLineEdit</class>
    <extends>QLineEdit</extends>
    <header>mylineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>myNumLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">mynumlabel.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

@@ -16,6 +16,7 @@ Widget::Widget(QWidget *parent) :
     setPalette (bgpal);
 
     ui->setupUi(this);
+    ui->label_num->data_show();//显示塘号
 
     Time_init();
 

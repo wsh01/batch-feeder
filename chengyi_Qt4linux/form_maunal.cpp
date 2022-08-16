@@ -27,4 +27,9 @@ void Form_Maunal::data_show()
     ui->maunal_lineEdit_2_1->data_show();
     ui->maunal_lineEdit_2_2->data_show();
     ui->maunal_lineEdit_3_1->data_show();
+    ui->label_3->data_show();
+    ui->label_6->data_show();
+    ui->label_9->data_show();
+    ui->label_12->data_show();
+    ui->label_15->data_show();
 }

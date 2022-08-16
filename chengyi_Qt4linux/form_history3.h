@@ -2,6 +2,7 @@
 #define FORM_HISTORY3_H
 
 #include <QWidget>
+#include <QSqlTableModel>
 
 namespace Ui {
 class Form_history3;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::Form_history3 *ui;
+    QSqlTableModel *model;
 };
 
 #endif // FORM_HISTORY3_H

@@ -490,7 +490,7 @@ border-radius: 10px;
    <property name="title">
     <string/>
    </property>
-   <widget class="QLabel" name="label_num">
+   <widget class="myNumLabel" name="label_num">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -1138,6 +1138,11 @@ QPushButton:hover { background-color: rgb(150, 255, 0); }</string>
    <class>DataTimeShow</class>
    <extends>QLabel</extends>
    <header>datatimeshow.h</header>
+  </customwidget>
+  <customwidget>
+   <class>myNumLabel</class>
+   <extends>QLabel</extends>
+   <header location="global">mynumlabel.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
